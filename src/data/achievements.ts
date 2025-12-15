@@ -1,0 +1,188 @@
+export interface Achievement {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  category: string;
+  date: string;
+  progress: number;
+  total: number;
+  unlocked: boolean;
+  rarity: "common" | "rare" | "epic" | "legendary";
+  points: number;
+}
+
+export const achievements: Achievement[] = [
+  {
+    id: "1",
+    title: "First Blood",
+    description: "Complete your first project",
+    icon: "Code",
+    category: "Projects",
+    date: "2024-01-15",
+    progress: 1,
+    total: 1,
+    unlocked: true,
+    rarity: "common",
+    points: 10,
+  },
+  {
+    id: "2",
+    title: "Century Club",
+    description: "Make 100 GitHub commits",
+    icon: "GitCommit",
+    category: "GitHub",
+    date: "2024-03-20",
+    progress: 100,
+    total: 100,
+    unlocked: true,
+    rarity: "rare",
+    points: 50,
+  },
+  {
+    id: "3",
+    title: "Stack Master",
+    description: "Learn 10+ technologies",
+    icon: "Layers",
+    category: "Skills",
+    date: "2024-05-10",
+    progress: 40,
+    total: 10,
+    unlocked: true,
+    rarity: "epic",
+    points: 100,
+  },
+  {
+    id: "4",
+    title: "Open Source Hero",
+    description: "Contribute to 5 open source projects",
+    icon: "Heart",
+    category: "Open Source",
+    date: "2024-06-15",
+    progress: 5,
+    total: 5,
+    unlocked: true,
+    rarity: "epic",
+    points: 150,
+  },
+  {
+    id: "5",
+    title: "Certified Pro",
+    description: "Earn 5 professional certifications",
+    icon: "Award",
+    category: "Certifications",
+    date: "2024-09-01",
+    progress: 8,
+    total: 5,
+    unlocked: true,
+    rarity: "legendary",
+    points: 200,
+  },
+  {
+    id: "6",
+    title: "Bug Slayer",
+    description: "Fix 50 bugs",
+    icon: "Bug",
+    category: "Development",
+    date: "2024-07-22",
+    progress: 67,
+    total: 50,
+    unlocked: true,
+    rarity: "rare",
+    points: 75,
+  },
+  {
+    id: "7",
+    title: "Code Reviewer",
+    description: "Review 25 pull requests",
+    icon: "GitPullRequest",
+    category: "Collaboration",
+    date: "2024-08-10",
+    progress: 32,
+    total: 25,
+    unlocked: true,
+    rarity: "rare",
+    points: 60,
+  },
+  {
+    id: "8",
+    title: "Marathon Coder",
+    description: "Code for 24 hours straight",
+    icon: "Clock",
+    category: "Dedication",
+    date: "2024-04-05",
+    progress: 24,
+    total: 24,
+    unlocked: true,
+    rarity: "epic",
+    points: 120,
+  },
+  {
+    id: "9",
+    title: "Tech Blogger",
+    description: "Write 10 technical blog posts",
+    icon: "PenTool",
+    category: "Content",
+    date: "",
+    progress: 6,
+    total: 10,
+    unlocked: false,
+    rarity: "rare",
+    points: 80,
+  },
+  {
+    id: "10",
+    title: "Community Leader",
+    description: "Help 100 developers on forums",
+    icon: "Users",
+    category: "Community",
+    date: "",
+    progress: 73,
+    total: 100,
+    unlocked: false,
+    rarity: "legendary",
+    points: 250,
+  },
+  {
+    id: "11",
+    title: "Hackathon Champion",
+    description: "Win 3 hackathons",
+    icon: "Trophy",
+    category: "Competitions",
+    date: "",
+    progress: 2,
+    total: 3,
+    unlocked: false,
+    rarity: "legendary",
+    points: 300,
+  },
+  {
+    id: "12",
+    title: "Full Stack Wizard",
+    description: "Master both frontend and backend",
+    icon: "Sparkles",
+    category: "Skills",
+    date: "2024-10-01",
+    progress: 1,
+    total: 1,
+    unlocked: true,
+    rarity: "legendary",
+    points: 500,
+  },
+];
+
+export const totalAchievementPoints = achievements
+  .filter((a) => a.unlocked)
+  .reduce((sum, a) => sum + a.points, 0);
+
+export const achievementStats = {
+  total: achievements.length,
+  unlocked: achievements.filter((a) => a.unlocked).length,
+  points: totalAchievementPoints,
+  byRarity: {
+    common: achievements.filter((a) => a.rarity === "common" && a.unlocked).length,
+    rare: achievements.filter((a) => a.rarity === "rare" && a.unlocked).length,
+    epic: achievements.filter((a) => a.rarity === "epic" && a.unlocked).length,
+    legendary: achievements.filter((a) => a.rarity === "legendary" && a.unlocked).length,
+  },
+};
