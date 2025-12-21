@@ -1,6 +1,6 @@
 # 🌟 Dyexa Rahardika - Portfolio Website
 
-A comprehensive, modern portfolio website showcasing skills, projects, and experience with an aesthetic design using light blue color palettes and dual theme support (light/dark).
+A comprehensive, modern portfolio website showcasing skills, projects, and experience with an minimalist design using light blue color palettes and dual theme support (light/dark).
 
 ## ✨ Features
 
@@ -255,12 +255,9 @@ MIT License - Feel free to use this for your own portfolio!
 
 ## 👤 Author
 
-**Dyexa Rahardika**
-- 🎓 Information System Student at Mulia University
-- 📧 Email: dyexarahardika@gmail.com
-- 💬 Discord: dyexzzz
-- 🔗 GitHub: [Your GitHub]
-- 💼 LinkedIn: [Your LinkedIn]
+**Dyexa Rahardika** 
+- 💬 Discord: .ndrean
+- 🔗 GitHub: DyexaHub
 
 ## 🙏 Acknowledgments
 
@@ -285,6 +282,6 @@ MIT License - Feel free to use this for your own portfolio!
 
 ---
 
-**Made with ❤️ by Dyexa Rahardika**
+**Made with ❤️ by Dyexa**
 
 **Star ⭐ this repo if you found it helpful!**
