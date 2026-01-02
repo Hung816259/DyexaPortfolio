@@ -7,7 +7,7 @@ import { Code, Activity, Music, Terminal as TerminalIcon } from "lucide-react";
 import { codingStats, wakaTimeStats } from "../../data/stats";
 import { fadeInUp } from "../../utils/animations";
 import { Progress } from "../ui/progress";
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
+
 
 export function InteractiveFeaturesSection() {
   return (
@@ -122,44 +122,7 @@ export function InteractiveFeaturesSection() {
             <GitHubHeatmap />
           </motion.div>
 
-          {/* Coding Language Distribution */}
-          <motion.div
-            className="glass rounded-xl p-6"
-            initial={fadeInUp.initial}
-            whileInView={fadeInUp.animate}
-            viewport={{ once: true }}
-            transition={{ delay: 0.3 }}
-          >
-            <h3 className="mb-6 flex items-center gap-2">
-              <Code className="w-5 h-5 text-primary" />
-              Programming Language Usage
-            </h3>
-            <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={wakaTimeStats}>
-                <CartesianGrid strokeDasharray="3 3" opacity={0.1} />
-                <XAxis 
-                  dataKey="language" 
-                  tick={{ fontSize: 12 }}
-                  stroke="currentColor"
-                  opacity={0.5}
-                />
-                <YAxis 
-                  tick={{ fontSize: 12 }}
-                  stroke="currentColor"
-                  opacity={0.5}
-                />
-                <Tooltip 
-                  contentStyle={{
-                    backgroundColor: 'rgba(0, 0, 0, 0.8)',
-                    border: 'none',
-                    borderRadius: '8px',
-                    color: '#fff',
-                  }}
-                />
-                <Bar dataKey="hours" fill="#0ea5e9" radius={[8, 8, 0, 0]} />
-              </BarChart>
-            </ResponsiveContainer>
-          </motion.div>
+
 
           {/* Stats Grid */}
           <div className="grid md:grid-cols-3 gap-6">

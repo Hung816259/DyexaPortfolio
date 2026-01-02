@@ -14,7 +14,7 @@ import { AchievementsSection } from './components/sections/AchievementsSection';
 import { CaseStudiesSection } from './components/sections/CaseStudiesSection';
 import { ToolsSection } from './components/sections/ToolsSection';
 import { InteractiveFeaturesSection } from './components/sections/InteractiveFeaturesSection';
-import { AnalyticsDashboard } from './components/sections/AnalyticsDashboard';
+
 import { ExperienceSection } from './components/sections/ExperienceSection';
 import { RoadmapSection } from './components/sections/RoadmapSection';
 import { TestimonialsSection } from './components/sections/TestimonialsSection';
@@ -48,8 +48,7 @@ export default function App() {
         <CaseStudiesSection />
         <ToolsSection />
         <InteractiveFeaturesSection />
-        <AnalyticsDashboard />
-        
+
         {/* Original Sections */}
         <ExperienceSection />
         <RoadmapSection />

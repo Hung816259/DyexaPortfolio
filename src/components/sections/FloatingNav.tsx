@@ -26,7 +26,6 @@ const navItems: NavItem[] = [
   { id: 'case-studies', label: 'Case Studies', icon: Briefcase, description: 'Deep dives' },
   { id: 'tools', label: 'Tools', icon: Wrench, description: 'Resources' },
   { id: 'interactive', label: 'Interactive', icon: Zap, description: 'Fun features' },
-  { id: 'analytics', label: 'Analytics', icon: BarChart, description: 'Stats' },
   { id: 'experience', label: 'Experience', icon: GraduationCap, description: 'My journey' },
   { id: 'contact', label: 'Contact', icon: Mail, description: 'Get in touch' },
 ];

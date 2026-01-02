@@ -75,10 +75,9 @@ export const testimonials: Testimonial[] = [
   {
     id: 6,
     name: "Dyexa Rahardika",
-    role: "Chief Business Officer",
-    company: "Dyexa Resources Ltd.",
-    avatar:
-      Owner,
+    role: "Founder & Lead Developer",
+    company: "DyexaLabs Inc.",
+    avatar: Owner,
     content:
       "As the coder of my own projects, I take pride in delivering high-quality, efficient, and user-friendly applications. My journey in software development has been fueled by a passion for technology and a commitment to continuous learning and improvement.",
     rating: 5,
