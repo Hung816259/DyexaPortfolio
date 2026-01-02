@@ -15,10 +15,10 @@ export function GitHubHeatmap() {
   const getLevelColor = (level: number) => {
     const colors = {
       0: "bg-secondary dark:bg-secondary/30",
-      1: "bg-primary/30 dark:bg-primary/20",
-      2: "bg-primary/50 dark:bg-primary/40",
-      3: "bg-primary/70 dark:bg-primary/60",
-      4: "bg-primary dark:bg-primary/80",
+      1: "bg-green-200 dark:bg-green-900/40",
+      2: "bg-green-300 dark:bg-green-800/50",
+      3: "bg-green-400 dark:bg-green-700/60",
+      4: "bg-green-500 dark:bg-green-600/80",
     };
     return colors[level as keyof typeof colors] || colors[0];
   };
