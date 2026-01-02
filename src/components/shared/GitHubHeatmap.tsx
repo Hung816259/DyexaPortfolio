@@ -47,9 +47,9 @@ export function GitHubHeatmap() {
                         initial={{ x: '-100%' }}
                         animate={{ x: '100%' }}
                         transition={{
-                          duration: 2,
+                          duration: 3,
                           repeat: Infinity,
-                          repeatDelay: Math.random() * 5 + 3,
+                          delay: (weekIndex * 7 + dayIndex) * 0.1,
                           ease: 'easeInOut'
                         }}
                       />
